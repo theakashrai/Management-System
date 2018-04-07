@@ -18,20 +18,43 @@
   </head>
   
   <body>
-	<div class="container"><h1 class="display-1">Management System</h1>
-	<br><h2> Some Tagline.........</h2>
+	<div class="container-fluid bg-success text-light"><br><h1>Management System</h1>
+	</br></div>
+	<div class="container-fluid bg-light">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 	
-	<div class="row">
-		<div class="col-4">Hello Bootstrap's grid system is built with flexbox and allows up to 12 columns across the page.
-
-If you do not want to use all 12 columns individually, you can group the columns together to create wider columns:</div>
-		<div class="col-4">Hello Bootstrap's grid system is built with flexbox and allows up to 12 columns across the page.
-
-If you do not want to use all 12 columns individually, you can group the columns together to create wider columns:</div>
-		<div class="col-4">Hello Bootstrap's grid system is built with flexbox and allows up to 12 columns across the page.
-
-If you do not want to use all 12 columns individually, you can group the columns together to create wider columns:</div>
+	<!-- navbar button -->
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-link">
+	 <span class="navbar-toggler-icon"></span>
+	</button>
+	 <div class="collapse navbar-collapse" id="navbar-link">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li> 
+    </ul>
 	</div>
+	<form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn btn-success" type="submit">Search</button>
+  </form>
+	</nav>
+	<br>
+	<div class="card">
+		<div class="card-body">Hello, Welcome to a simple Management system Web App.
+		This App is under development. Please Check later for any progress. 
+		Thanks for visiting us.</div>
+	</div>
+	</div>
+	<div class="container-fluid bg-success text-light" style="position:absolute;bottom:0;">
+	Management System&copy;
+	<br>	
 	</div>
   </body>
  </html>
